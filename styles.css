@@ -1,0 +1,86 @@
+body {
+	font-family: 'PoppinsRegular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.86em;
+}
+a {
+	color: #fcfbf9;
+	outline: none;
+}
+a:hover {
+	color: #a3072c;
+}
+.header {
+	align-items: center;
+	background: #a3072c;
+	color: #f8fcff;
+	display: flex;
+	font-family: 'GlacialIndifferenceBold';
+}
+.header img {
+	border-radius: 50%;
+	border: 3px solid #fcfbf9;
+	margin: 20px 80px;
+	order: 0;
+	width: 200px;
+}
+.header .title {
+	order: 1;
+	text-align: center;
+}
+.header .title h1 {
+	font-size: 3em;
+}
+.header .title h2 {
+	font-size: 1.5em;
+	font-family: 'GlacialIndifferenceRegular';
+}
+.sidebar {
+	background: #000;
+}
+.sidebar address {
+	color: #fcfbf9;
+	padding: 0 0 0 25px;
+	list-style: none;
+}
+.sidebar address ul {
+	list-style: none;
+	margin: 0;
+}
+.sidebar ul {
+	padding: 0 0 0 10px;
+	list-style: square;
+	color: #fcfbf9;
+}
+.sidebar .socialnetworks {
+	display: flex;
+	font-size: 3em;
+	list-style: none;
+	letter-spacing: 0.5em;
+}
+.main {
+	background: #fcfbf9;
+}
+.main h2 {
+	font-size: 1.3em;
+	font-weight: 900;
+}
+.main ul {
+	padding: 0 0 0 15px;
+	list-style: square;
+}
+.main .title {
+	display: flex;
+	justify-content: space-between;
+}
+.sidebar h1, .main h1, .main h2 {
+	color: #3d3c3a;
+	font-family: 'GlacialIndifferenceRegular';
+}
+.sidebar h1, .main h1 {
+	color: #a3072c;
+	font-size: 1.8em;
+	margin: 20px auto;
+	text-align: center;
+}
