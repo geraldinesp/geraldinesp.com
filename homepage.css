@@ -1,0 +1,31 @@
+body {
+	background: #fcfbf9;
+	color: #000;
+	font-family: 'Muli';
+}
+.container {
+	margin-top: 80px;
+}
+.title {
+	margin: 0;
+	text-shadow: 2px 2px 1px black;
+}
+.subtitle h2 {
+	color: #a3072c;
+	font-size: 1.5em;
+	margin: 18px 0;
+}
+.socialnetworks {
+	display: flex;
+	font-size: 3em;
+	list-style: none;
+	letter-spacing: 0.5em;
+	margin: 18px 0;
+}
+a {
+	color: #000;
+	outline: none;
+}
+a:hover {
+	color: #a3072c;
+}
